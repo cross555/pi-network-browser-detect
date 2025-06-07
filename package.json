@@ -1,0 +1,31 @@
+{
+  "name": "pi-network-browser-detect",
+  "version": "1.0.3",
+  "description": "A lightweight React hook to detect Pi Browser environment for hybrid apps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cross555/pi-network-browser-detect"
+  },
+  "bugs": {
+    "url": "https://github.com/cross555/pi-network-browser-detect/issues"
+  },
+  "homepage": "https://github.com/cross555/pi-network-browser-detect#readme",
+  "keywords": [
+    "pi",
+    "pi network",
+    "pi browser",
+    "react",
+    "react hook",
+    "sdk",
+    "web3",
+    "hybrid apps",
+    "dapps",
+    "pi-sdk"
+  ],
+  "author": "cross555",
+  "license": "MIT"
+}
