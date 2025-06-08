@@ -63,6 +63,25 @@ const PiOnlyFeature = () => {
 
 📲 Provide fallback UI for non-Pi users (e.g. QR code, redirect links)
 
+## 🧪 Example
+
+See [`/example/App.jsx`](./example/App.jsx) for a full usage demo.
+
+```jsx
+import useIsPiBrowser from 'pi-network-browser-detect';
+
+const App = () => {
+  const isInPiBrowser = useIsPiBrowser();
+
+  if (isInPiBrowser === null) return <p>Detecting...</p>;
+
+  return isInPiBrowser ? (
+    <p>You're in the Pi Browser!</p>
+  ) : (
+    <p>This feature requires the Pi Browser.</p>
+  );
+};
+```
 📄 License
 MIT
 
