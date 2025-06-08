@@ -1,3 +1,3 @@
 // index.js
-import useIsPiBrowser from "./useIsPiBrowser";
+import useIsPiBrowser from "./src/useIsPiBrowser";
 export default useIsPiBrowser;

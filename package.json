@@ -27,5 +27,8 @@
     "pi-sdk"
   ],
   "author": "cross555",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "pi-network-browser-detect": "^1.0.3"
+  }
 }
